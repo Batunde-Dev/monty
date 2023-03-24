@@ -5,7 +5,7 @@ Monty 0.98 is a scripting language that is first compiled into Monty byte codes 
 
 **Monty byte code files**
 
-Files containing Monty byte codes usually have the == .m == extension. Most of the industry uses this standard but it is not required by the specification of the language. There is not more than one instruction per line. There can be any number of spaces before or after the opcode and its argument:
+Files containing Monty byte codes usually have the ==.m== extension. Most of the industry uses this standard but it is not required by the specification of the language. There is not more than one instruction per line. There can be any number of spaces before or after the opcode and its argument:
 
 ```
 julien@ubuntu:~/monty$ cat -e bytecodes/000.m
@@ -45,7 +45,7 @@ julien@ubuntu:~/monty$
 
 **The monty program**
 
-- Usage: == monty file ==
+- Usage: <mark>monty file</mark>
 	- where ==file== is the path to the file containing Monty byte code
 - If the user does not give any file or more than one argument to your program, print the error message ==USAGE: monty file==, followed by a new line, and exit with the status ==EXIT_FAILURE==
 - If, for any reason, it’s not possible to open the file, print the error message ==Error: Can't open file <file>==, followed by a new line, and exit with the status ==EXIT_FAILURE==
